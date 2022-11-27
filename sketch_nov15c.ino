@@ -8,7 +8,7 @@ void setup()
   Serial.begin(9600);
   while(!Serial);
   delay(100);
-  Serial.println("\n\nAdafruit Fingerprint Sensor enrollment");
+  Serial.println("\n\nannanRSujay Checking the Availability of FingerPrint Sensor");
   finger.begin(57600);
   if(finger.verifyPassword())
   {
